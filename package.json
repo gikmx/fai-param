@@ -1,0 +1,35 @@
+{
+  "name"         : "fai-param",
+  "version"      : "0.0.1",
+  "description"  : "fai module to parse CLI arguments asyncronically.",
+  "main"         : "build/index.js",
+  "author"       : "Héctor Menéndez <etor@gik.mx> (http://gik.mx)",
+  "license"      : "ISC",
+  "homepage"     : "https://github.com/gikmx/fai-param.git",
+  "dependencies" : {
+    "argv": "0.0.2",
+    "babel-runtime": "^5.8.25"
+  },
+  "devDependencies": {
+    "gik": "*",
+    "gulp": "^3.9.0",
+    "chai": "^3.3.0"
+  },
+  "scripts": {
+    "gulp"       : "gulp",
+    "prepublish" : "gulp build",
+    "test"       : "gulp test",
+    "build"      : "gulp build",
+    "watch"      : "gulp watch --task=build"
+  },
+  "repository": {
+    "type" : "git",
+    "url"  : "http://github.com/gikmx/fai-param.git"
+  },
+  "bugs": {
+    "url" : "https://github.com/gikmx/fai-param/issues"
+  },
+  "engines": {
+    "node" : ">= 4.1.0"
+  }
+}
